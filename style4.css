@@ -159,3 +159,57 @@ img:hover{
     margin:3rem 1.5rem 3rem 0;
     transition: 0.3s ease-in-out;
 }
+
+.social-icons a:hover{
+    color:white;
+    transform:scale(1.3)translateY(-5px);
+    box-shadow:0 0 25px #FFBF00;
+    background-color: #FFBF00;
+}
+
+.btn{
+    display:inline-block;
+    padding: 1rem 2.8rem;
+    background: #FFBF00;
+    box-shadow: 0 0 25px #FFBF00;
+    border-radius:4rem;
+    font-size:1.6rem;
+    color:black;
+    border:2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow:0 0 50px #FFBF00;
+}
+
+.btn-grp{
+    display:flex;
+    align-items: center;
+    gap:1.5rem;
+}
+
+.btn-grp a:nth-of-type(2){
+    background-color: black;
+    color:#FFBF00;
+    border: 2px solid #FFBF00;
+    box-shadow: 0 0 25px transparent;
+}
+
+.btn-grp a:nth-of-type(2):hover{
+    color:black;
+    background-color: #FFBF00;
+    box-shadow: 0 0 25px #FFBF00;
+}
+
+
+
+
+
+
+
+
