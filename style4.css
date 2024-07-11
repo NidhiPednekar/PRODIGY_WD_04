@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -104,10 +105,11 @@ section {
 }
 
 .home-content p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.8;
     color: #f5f5f5; 
+    font-family: "Roboto", sans-serif;
 }
 
 .home-img {
@@ -451,4 +453,143 @@ section {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     margin-top:1.8rem;
+}
+
+/* Contact Section */
+.contact {
+    background: #022929;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.contact .heading {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.contact .heading span {
+    color: #FFD700;
+}
+
+.contact form {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.contact .input-box {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.contact .input-box:last-child {
+    margin-right: 0;
+}
+
+.contact .input-box input {
+    width: 100%;
+    padding: 1.5rem;
+    background: #016f6f;
+    border: 2px solid #FFD700;
+    color: white;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.contact .input-box input::placeholder {
+    color: white;
+}
+
+.contact .input-group-2 {
+    margin-bottom: 2rem;
+}
+
+.contact .input-group-2 textarea {
+    width: 100%;
+    padding: 1.5rem;
+    background: #016f6f;
+    border: 2px solid #FFD700;
+    color: white;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.contact .input-group-2 textarea::placeholder {
+    color: white;
+}
+
+.contact .btn {
+    padding: 1rem 2.8rem;
+    background: #FFD700;
+    color: #008080;
+    font-weight: 600;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.contact .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px #FFD700;
+}
+
+/* Footer */
+.footer {
+    background: #022929;
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    color: #FFD700;
+}
+
+.footer-content p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer .socials li {
+    list-style: none;
+}
+
+.footer .socials a {
+    color: white;
+    font-size: 2.4rem;
+    transition: 0.3s ease;
+}
+
+.footer .socials a:hover {
+    color: #FFD700;
+}
+
+.footer-bottom {
+    background: #016f6f;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1.4rem;
 }
