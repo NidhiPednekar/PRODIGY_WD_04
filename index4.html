@@ -46,6 +46,8 @@
                 <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
+
+       
     </section>
 
     <section class="projects" id="projects">
@@ -87,6 +89,13 @@
                     <h2>Calculator</h2>
                     <p>An intuitive calculator app built to perform basic arithmetic operations. Features include a clean design, responsive buttons, and the ability to handle multiple consecutive operations seamlessly.</p>
                 </div>
+
+                <div class="project-item">
+                    
+                    <img src="currencyConv.png" alt="">
+               <h2>Currency Converter</h2>
+               <p>This Currency Converter project leverages an API to provide real-time exchange rates, enabling accurate and efficient currency conversions. The user-friendly interface allows users to select currencies, input amounts, and receive instant conversions.</p>
+           </div>
             </div>
         </div>
     </section>
@@ -194,26 +203,32 @@
     </section>
 
     <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-    
-        <form action="">
+    <div class="container">
+        <div class="heading">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <form action="#" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="email" placeholder="Email" required>
+                    <input type="text" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number" required>
-                    <input type="text" placeholder="Subject" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
                 </div>
             </div>
-    
-            <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
             </div>
+            <div class="input-group-2">
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
         </form>
-    </section>
+    </div>
+</section>
+
     
     <footer class="footer">
         <div class="footer-content">
